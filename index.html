@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog landing page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="header__container">
+      <div class="logo">
+        <img src="images/logo.svg" alt="logo">
+      </div>
+      <div class="product">
+        <h4 id="product__button" class="td-u arrow_button">Product <i class="arrow arrow__product"></i></h4>
+          <ul class="hidden-content product__content list">
+            <li class="first__list__item">Overview</li>
+            <li>Pricing</li>
+            <li>Marketplace</li>
+            <li>Features</li>
+            <li>Integrations</li>
+          </ul>
+      </div>
+      <div class="company">
+        <h4 id="company__button" class="td-u">Company <i class="arrow arrow__company"></i></h4>
+        <ul class="hidden-content company__content list">
+          <li class="first__list__item">About</li>
+          <li>Team</li>
+          <li>Blog</li>
+          <li>Careers</li>
+        </ul>
+      </div>
+      <div class="connect">
+        <h4 id="connect__button" class="td-u">Connect <i class="arrow arrow__connect"></i></h4>
+        <ul class="hidden-content connect__content list">
+          <li class="first__list__item">Contact</li>
+          <li>Newsletter</li>
+          <li>LinkedIn</li>
+        </ul>
+      </div>
+      <div class="Login">
+        <h4>Login</h4>
+      </div>
+      <div class="sign-up">
+        <button class="red__button">Sign Up</button>
+      </div>
+    </div>
+    <div class="header__content">
+      <h1 class="header__content__title">A modern publishing platform</h1>
+      <p class="header__content__text">Grow your audience and build your online brand</p>
+      <div class="header__buttons">
+        <button class="header__button red__button">Start for Free</button>
+        <button class="header__button learn__more">Learn More</button>
+      </div>
+    </div>
+  </header>
+
+  <section class="page__first__section">
+    <h2 class="first__section__title">Designed for the future</h2>
+    <div class="section__container">
+      <div class="first__section__content">
+        <div class="first__blog">
+          <h2>Introducing an extensible editor</h2>
+          <p class="blog__text">
+            Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content.
+            The editor supports management of multiple blogs and allows easy manipulation of embeds such as images,
+            videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or
+            change the looks of a blog.
+          </p>
+        </div>
+        <div class="second__blog">
+          <h2>Robust content management</h2>
+          <p class="blog__text">
+            Flexible content management enables users to easily move through posts. Increase the usability of your blog
+            by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="page__second__section">
+    <div class="second__section__container">
+      <div class="second__section__image">
+        <img class="phones__image" src="images/illustration-phones.svg">
+      </div>
+
+      <div class="second__section__content">
+        <h1 class="second__section__title">State of the Art Infrastructure</h1>
+        <p class="second__section__text">
+          With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity.
+          This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
+        </p>
+      </div>
+    </div>
+
+  </section>
+  <section class="page__third__section">
+    <div class="third__section__container">
+      <div class="image__laptop">
+
+      </div>
+      <div class="section__laptop__container">
+        <div class="third__blog">
+          <h2>Free, open, simple</h2>
+          <p class="blog__text">
+            Blogr is a free and open source application backed by a large community of helpful developers. It supports
+            features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting
+            tools,
+            and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
+          </p>
+        </div>
+        <div class="fourth__blog">
+          <h2>Powerful tooling</h2>
+          <p class="blog__text">
+            Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a
+            breeze, but
+            capable of producing even the most complicated sites.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    
+    
+    <div class="footer__container">
+      <div class="footer__logo">
+      <img src="images/logo.svg" alt="logo">
+    </div>
+      <div class="footer__list">
+        <p class="footer__text">Product</p>
+        <ul>
+          <li>Overview</li>
+          <li>Pricing</li>
+          <li>Marketplace</li>
+          <li>Features</li>
+          <li>Integrations</li>
+        </ul>
+      </div>
+      <div class="footer__list">
+        <p class="footer__text">Company</p>
+        <ul>
+          <li>About</li>
+          <li>Team</li>
+          <li>Blog</li>
+          <li>Careers</li>
+        </ul>
+      </div>
+      <div class="footer__list">
+        <p class="footer__text">Connect</p>
+        <ul>
+          <li>Contact</li>
+          <li>Newsletter</li>
+          <li>LinkedIn</li>
+        </ul>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Проверить получиться ли такой вариант с изменением градиента в хедере: 
+<svg class="logo" width="115" height="47" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="gradient" x1="0%" y1="100%" x2="0%" y2="0%">
+        <stop offset="0%" stop-color="#4a7def"></stop>
+        <stop offset="50%" stop-color="#ab4787"></stop>
+      </linearGradient>
+    </defs>
+      <g transform="translate(-5 -5)" fill="none" fill-rule="evenodd">
+        <rect fill="#AB4787" transform="rotate(45 28.5 28.5)" x="9" y="9" width="39" height="39" rx="11" />
+        <text font-family="Rubik-Medium, Rubik" font-size="30" font-weight="400" fill="url(#gradient)">
+          <tspan x="63.923" y="36.923">Rect</tspan>
+        </text>
+      </g>
+</svg> -->
+
+
+
+
+  <!-- <img class="circles" src="images/bg-pattern-circles.svg" alt="circles"> -->
+
+  <!--
+
+   -->
+  <script src="./script.js"></script>
+</body>
+
+</html>
